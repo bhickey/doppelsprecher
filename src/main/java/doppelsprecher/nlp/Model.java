@@ -1,4 +1,4 @@
-package flatten.nlp;
+package doppelsprecher.nlp;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -20,8 +20,6 @@ import com.google.common.collect.Maps;
 import com.google.inject.Inject;
 
 public class Model {
-
-
 	public static class Builder {
 		private NgramSmoother smoother = new MKNSmoother();
 		private Integer length;
